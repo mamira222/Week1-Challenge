@@ -1,3 +1,4 @@
+/* Include everything */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -15,11 +16,13 @@ header {
     color: #ffffff;
 }
 
+/* Header title */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Color difference of SEO in HORISEON in header title */
 header h1 .seo {
     color: #d9dcd6;
 }
@@ -32,24 +35,20 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul {
-    list-style-type: none;
-}
-
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* Navigation header text color */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* Paragraphs font size */
 p {
     font-size: 16px;
 }
-
+/* Background image properties */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,23 +57,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* Properties of images 1 and 3 in first section */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* Properties of image 2 in 1st section */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* 1st section properties */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* 2nd section properties */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -126,7 +125,7 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* Footer title properties */
 footer h2 {
     font-size: 20px;
 }
